@@ -24,10 +24,10 @@ aj@lkn.io | @ajlkn
 Credits:
 
 Demo Images:
-  Unsplash (unsplash.com)
+  Unsplash <https://nsplash.com>
 
 Icons:
-  Font Awesome (fontawesome.io)
+  Font Awesome <https://fontawesome.io>
 
 Other:
   jQuery (jquery.com)
