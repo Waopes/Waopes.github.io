@@ -99,15 +99,16 @@
 				<span class="image featured"><img src="https://cdn.jsdelivr.net/gh/seldonsuun/seldonsuun.github.io/images/blog1.1.png" alt="" /></span>
                 <p>相信大家已经从图里看出个大概了，基本思路就是使用jsdelivr的cdn地址来替换GitHub的源文件地址</p>
                 <h2>1.通用使用方法</h2>
-                <p><pre>通用的使用方法是：
-<code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code>
-其中<code>https://cdn.jsdelivr.net/gh/</code>是不变的，这表示的是CDN加速了GitHub的文件，<code>user</code>代表了文件所属者的用户名，<code>repo</code>是文件所在的仓库，<code>version</code>是版本号（非必须，默认是最新的版本），<code>file</code>是文件路径，这里的路径必须要精确到文件，而不是到文件所属的文件夹。
-例如：
-<code>https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js
-https://cdn.jsdelivr.net/gh/jquery/jquery@32b00373b3f42e5cdcb709df53f3b08b7184a944/dist/jquery.min.js</code>
-这时候，我们就可以把自己的GitHub pages上的图片等不容易加载的东西托管到这个cdn上，因为jsdelivr在大陆有节点，所以你的访问速度为快速提高。替换方法就是到你的网站html文件里把每一个图片的链接改成https://cdn.jsdelivr.net/gh/user/repo@version/file。
-当然如果你不是很熟悉链接的话，也有工具可以帮你生成，可以看这篇教程<a href=https://segmentfault.com/a/1190000020240864>GitHub+jsDelivr+PicGo搭建免费图床</a>
-                </pre></p>
+                <p>通用的使用方法是：<br />
+                    <code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code><br />
+                    其中<code>https://cdn.jsdelivr.net/gh/</code>是不变的，这表示的是CDN加速了GitHub的文件，<code>user</code>代表了文件所属者的用户名，<code>repo</code>是文件所在的仓库，<code>version</code>是版本号（非必须，默认是最新的版本），<code>file</code>是文件路径，这里的路径必须要精确到文件，而不是到文件所属的文件夹。<br />
+                    例如：<br />
+                    <pre><code>https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js
+https://cdn.jsdelivr.net/gh/jquery/jquery@32b00373b3f42e5cdcb709df53f3b08b7184a944/dist/jquery.min.js
+                    </code></pre>
+                    这时候，我们就可以把自己的GitHub pages上的图片等不容易加载的东西托管到这个cdn上，因为jsdelivr在大陆有节点，所以你的访问速度为快速提高。替换方法就是到你的网站html文件里把每一个图片的链接改成https://cdn.jsdelivr.net/gh/user/repo@version/file。
+                    当然如果你不是很熟悉链接的话，也有工具可以帮你生成，可以看这篇教程<a href=https://segmentfault.com/a/1190000020240864>GitHub+jsDelivr+PicGo搭建免费图床</a>
+                </p>
                 <!-- <h2>2.一些特殊的version</h2>
                 <p>除了规规矩矩填写版本号或者不填以外，还有一些特殊的版本号，这些将可以打开新世界的大门</p>
                 <h3>version=release</h3>
