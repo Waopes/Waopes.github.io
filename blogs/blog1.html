@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Welcome to My Shore!</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+
+<body class="single is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="/index.html">Future Imperfect</a></h1>
+			<nav class="links">
+				<ul>
+					<li><a href="/index.html">主页</a></li>
+					<li><a href="/download/download_main.html">下载</a></li>
+				</ul>
+			</nav>
+			<nav class="main">
+				<ul>
+					<!-- <li class="search">
+						<a class="fa-search" href="#search">Search</a>
+						<form id="search" method="get" action="#">
+							<input type="text" name="query" placeholder="Search" />
+						</form>
+					</li> -->
+					<!-- <li class="menu">
+						<a class="fa-bars" href="#menu">Menu</a>
+					</li> -->
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<section id="menu">
+
+			<!-- Search -->
+			<section>
+				<form class="search" method="get" action="#">
+					<input type="text" name="query" placeholder="Search" />
+				</form>
+			</section>
+
+			<!-- Links -->
+			<section>
+				<ul class="links">
+					<li>
+						<a href="/index.html">
+							<h3>Hello World</h3>
+							<p>This is my first blog.</p>
+						</a>
+					</li>
+					<li>
+						<a href="blog1.html">
+							<h3>jsdelivr的妙用</h3>
+							<p>This is my second blog.</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<!-- Actions -->
+			<section>
+				<ul class="actions stacked">
+					<li><a href="#" class="button large fit">Log In</a></li>
+				</ul>
+			</section>
+
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Post -->
+			<article class="post">
+				<header>
+					<div class="title">
+						<h2><a href="#">jsdelivr的妙用</a></h2>
+						<p>This is my second blog.</p>
+					</div>
+					<div class="meta">
+						<time class="published" datetime="2020-4-16">2020年4月16日</time>
+						<a href="#" class="author"><span class="name">Jane Doe</span><img src="https://cdn.jsdelivr.net/gh/seldonsuun/seldonsuun.github.io/images/avatar.jpg"
+								alt="" /></a>
+					</div>
+                </header>
+                <p>先上个图</p>
+				<span class="image featured"><img src="https://cdn.jsdelivr.net/gh/seldonsuun/seldonsuun.github.io//images/blog1.1.png" alt="" /></span>
+                <p>相信大家已经从图里看出个大概了，基本思路就是使用jsdelivr的cdn地址来替换GitHub的源文件地址</p>
+                <h2>1.通用使用方法</h2>
+                <p>通用的使用方法是：
+    <code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code>
+                    其中<code>https://cdn.jsdelivr.net/gh/</code>是不变的，这表示的是CDN加速了GitHub的文件，
+                    <code>user</code>代表了文件所属者的用户名，
+                    <code>repo</code>是文件所在的仓库，
+                    <code>version</code>是版本号
+                    <code>file</code>是文件路径，这里的路径必须要精确到文件，而不是到文件所属的文件夹
+                    例如：
+                    <code>https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js
+                        https://cdn.jsdelivr.net/gh/jquery/jquery@32b00373b3f42e5cdcb709df53f3b08b7184a944/dist/jquery.min.js</code>
+                </p>
+                
+				<footer>
+					<!-- <ul class="stats">
+						<li><a href="#">General</a></li>
+						<li><a href="#" class="icon solid fa-heart">28</a></li>
+						<li><a href="#" class="icon solid fa-comment">128</a></li>
+					</ul> -->
+				</footer>
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<section id="footer">
+			<!-- <ul class="icons">
+				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
+				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+			</ul> -->
+			<p class="copyright">&copy; Sunny Shore | Designed By: <a href="http://html5up.net">HTML5 UP</a>.</p>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/browser.min.js"></script>
+	<script src="/assets/js/breakpoints.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
