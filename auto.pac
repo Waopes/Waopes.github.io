@@ -17,7 +17,7 @@
      *                                                 *
      * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-var IP_ADDRESS = '192.168.1.4:7890'; // Need to change to a real address!!
+var IP_ADDRESS = '192.168.1.3:7890'; // Need to change to a real address!!
 
     /* * * * * * * * * * * * * * * * * * * * * * * * * * 
      *                                                 *
