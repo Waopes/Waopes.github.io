@@ -397,7 +397,6 @@ var RULES = [
         ".ganji.com",
         ".kaixin001.com",
         ".paipai.com",
-        ".live.com",
         ".alimama.com",
         ".mop.com",
         ".51.la",
