@@ -346,7 +346,7 @@ var RULES = [
         ".yocc.net",
         ".youshang.com",
         ".youwo123.com",
-        ".zaobao.com",
+        // ".zaobao.com",
         ".zaojiao.com",
         ".zbjimg.com",
         ".zdface.com",
