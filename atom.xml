@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MY SHORE</title>
+  
+  
+  <link href="https://pages.myshore.top/atom.xml" rel="self"/>
+  
+  <link href="https://pages.myshore.top/"/>
+  <updated>2021-01-01T09:07:38.802Z</updated>
+  <id>https://pages.myshore.top/</id>
+  
+  <author>
+    <name>SeldonSuun</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git使用指导</title>
+    <link href="https://pages.myshore.top/2021/01/01/Git%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC/"/>
+    <id>https://pages.myshore.top/2021/01/01/Git%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC/</id>
+    <published>2021-01-01T08:54:48.000Z</published>
+    <updated>2021-01-01T09:07:38.802Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录一些使用遇到的坑和填坑方法，先行推荐一个网站：<a href="https://ohshitgit.com/zh">OhShitGit</a>。</p><h2 id="1-同步的时候总需要验证？"><a href="#1-同步的时候总需要验证？" class="headerlink" title="1. 同步的时候总需要验证？"></a>1. 同步的时候总需要验证？</h2><p>多半是<del>装的</del>你使用了https进行克隆和同步，可以在文件夹中git bash后用以下命令查看：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure><p>确定之后就可以用以下代码使用ssh方式替换https进行同步。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote set-url origin [url]</span><br></pre></td></tr></table></figure><p>具体方法参考网上的教程</p><h2 id="2-有两个SSH要选着用？"><a href="#2-有两个SSH要选着用？" class="headerlink" title="2. 有两个SSH要选着用？"></a>2. 有两个SSH要选着用？</h2><p>不要慌，在/.ssh文件夹中创建一个新的文件命名为“config”，在其中输入以下内容：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host [url]</span><br><span class="line">    User git</span><br><span class="line">    IdentityFile [ssh文件位置]</span><br><span class="line">    IdentitiesOnly yes</span><br><span class="line">Host [url]</span><br><span class="line">    User git</span><br><span class="line">    IdentityFile [ssh文件位置]</span><br><span class="line">    IdentitiesOnly yes</span><br></pre></td></tr></table></figure><p>其中：[url]部分填写你库所在的网址，如果是gitee就填<a href="https://gitee.com/">gitee.com</a>，User表示是哪个命令使用这个配置，在这里就是git命令配置成功后，你就可以对在不同网站托管的库使用不同的ssh密钥了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;记录一些使用遇到的坑和填坑方法，先行推荐一个网站：&lt;a href=&quot;https://ohshitgit.com/zh&quot;&gt;OhShitGit&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;1-同步的时候总需要验证？&quot;&gt;&lt;a href=&quot;#1-同步的时候总需要验证？&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    
+    <category term="教程" scheme="https://pages.myshore.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你就是营销号？</title>
+    <link href="https://pages.myshore.top/2020/12/21/%E4%BD%A0%E5%B0%B1%E6%98%AF%E8%90%A5%E9%94%80%E5%8F%B7%EF%BC%9F/"/>
+    <id>https://pages.myshore.top/2020/12/21/%E4%BD%A0%E5%B0%B1%E6%98%AF%E8%90%A5%E9%94%80%E5%8F%B7%EF%BC%9F/</id>
+    <published>2020-12-21T14:41:30.000Z</published>
+    <updated>2021-01-01T09:11:02.663Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="或者大家都是营销号"><a href="#或者大家都是营销号" class="headerlink" title="或者大家都是营销号"></a>或者大家都是营销号</h2><p>营销号文章生成器，从此成为营销号不是梦！！！详见<a href="https://maorx.cn/yxh/">maorx.cn/yxh/</a></p><p>如何逼学校开学是什么？如何逼学校开学究竟是什么梗？如何逼学校开学是如何火起来的？随着人们生活水平的提高和科技的进步，如何逼学校开学也被越来越多人所知。那么如何逼学校开学酒精是什么意思呢？相信大家对如何逼学校开学都很熟悉，如何逼学校开学就是我们每天都会经常遇到的，但是如何逼学校开学是怎么回事呢？下面就让小编带大家一起了解一下如何逼学校开学是怎么回事吧。其实之前并没有太多人知道如何逼学校开学，但是最近由于热度的上升，如何逼学校开学受到了大家的关注。大家可能会感到很惊讶，如何逼学校开学为什么是这样的？如何逼学校开学究竟为什么火起来了呢？但事实就是这样，小编也感到非常惊讶。希望小编精心整理的这篇内容能够帮助到你，本期教学结束了，关于如何逼学校开学大家还有什么想说的吗？欢迎在评论区留言哦~</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;或者大家都是营销号&quot;&gt;&lt;a href=&quot;#或者大家都是营销号&quot; class=&quot;headerlink&quot; title=&quot;或者大家都是营销号&quot;&gt;&lt;/a&gt;或者大家都是营销号&lt;/h2&gt;&lt;p&gt;营销号文章生成器，从此成为营销号不是梦！！！详见&lt;a href=&quot;https://m</summary>
+      
+    
+    
+    
+    
+    <category term="收集" scheme="https://pages.myshore.top/tags/%E6%94%B6%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>镜像站</title>
+    <link href="https://pages.myshore.top/2020/10/05/test-my-site/"/>
+    <id>https://pages.myshore.top/2020/10/05/test-my-site/</id>
+    <published>2020-10-05T07:31:43.000Z</published>
+    <updated>2021-01-01T09:12:22.113Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到我的博客！这是我的第一个博客，对于我来说博客好像没啥用，以前开过一个服务器用过wordpress，但是奈何服务器实在太贵了，负担不起。这玩意就先放在这吧，说不定哪天想起来可以来这里发发牢骚（也许只有我一个人能看到？）。</p><h2 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h2><p>一个镜像站<a href="https://gg.chn.moe/">gg.chn.moe</a>，现在需要修改hosts访问（网站主撤掉了dns解析）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">216.24.178.192  gg.chn.moe</span><br><span class="line">216.24.178.192  gg0.chn.moe</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;欢迎来到我的博客！这是我的第一个博客，对于我来说博客好像没啥用，以前开过一个服务器用过wordpress，但是奈何服务器实在太贵了，负担不起。这玩意就先放在这吧，说不定哪天想起来可以来这里发发牢骚（也许只有我一个人能看到？）。&lt;/p&gt;
+&lt;h2 id=&quot;推荐&quot;&gt;&lt;a href</summary>
+      
+    
+    
+    
+    
+    <category term="收集" scheme="https://pages.myshore.top/tags/%E6%94%B6%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Note</title>
+    <link href="https://pages.myshore.top/2020/10/05/hello-world/"/>
+    <id>https://pages.myshore.top/2020/10/05/hello-world/</id>
+    <published>2020-10-05T07:00:00.000Z</published>
+    <updated>2021-01-01T09:16:20.805Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="清除已经生成的public文件夹内容"><a href="#清除已经生成的public文件夹内容" class="headerlink" title="清除已经生成的public文件夹内容"></a>清除已经生成的public文件夹内容</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+    <category term="教程" scheme="https://pages.myshore.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>
