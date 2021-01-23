@@ -26,7 +26,7 @@
 <meta property="og:description" content="欢迎来到我的博客！这是我的第一个博客，对于我来说博客好像没啥用，以前开过一个服务器用过wordpress，但是奈何服务器实在太贵了，负担不起。这玩意就先放在这吧，说不定哪天想起来可以来这里发发牢骚（也许只有我一个人能看到？）。 推荐一个镜像站gg.chn.moe，现在需要修改hosts访问（网站主撤掉了dns解析） 12216.24.178.192  gg.chn.moe216.24.178.19">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-10-05T07:31:43.000Z">
-<meta property="article:modified_time" content="2021-01-01T09:12:22.113Z">
+<meta property="article:modified_time" content="2021-01-23T02:06:48.699Z">
 <meta property="article:author" content="SeldonSuun">
 <meta property="article:tag" content="收集">
 <meta name="twitter:card" content="summary">
@@ -340,6 +340,13 @@
         <p>欢迎来到我的博客！这是我的第一个博客，对于我来说博客好像没啥用，以前开过一个服务器用过wordpress，但是奈何服务器实在太贵了，负担不起。这玩意就先放在这吧，说不定哪天想起来可以来这里发发牢骚（也许只有我一个人能看到？）。</p>
 <h2 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h2><p>一个镜像站<a target="_blank" rel="noopener" href="https://gg.chn.moe/">gg.chn.moe</a>，现在需要修改hosts访问（网站主撤掉了dns解析）</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">216.24.178.192  gg.chn.moe</span><br><span class="line">216.24.178.192  gg0.chn.moe</span><br></pre></td></tr></table></figure>
+<p>由于相关修改hosts的链接已经失效，这里给出修改方法：</p>
+<p>首先定位到</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Windows\System32\drivers\etc</span><br></pre></td></tr></table></figure>
+<p>右击hosts文件，选择属性，更改安全信息，将你所在的用户组或你使用的用户添加到其中并赋予修改权限。(不会操作可以百度，可能有点复杂)。</p>
+<p>你可以选择在完成编辑后另存为新文件然后将原有hosts替换掉。</p>
+<p>然后将上面的hosts添加到文件中保存即可。</p>
+
       
     </div>
     <div class="article-footer">
