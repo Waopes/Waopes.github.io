@@ -27,6 +27,8 @@ More info: [Server](https://hexo.io/docs/server.html)
 
 ``` bash
 $ hexo generate
+or
+$ hexo g
 ```
 
 More info: [Generating](https://hexo.io/docs/generating.html)
@@ -35,6 +37,8 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 
 ``` bash
 $ hexo deploy
+or
+$ hexo g
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
@@ -44,3 +48,5 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 ``` bash
 $ hexo clean
 ```
+
+<font color="red" size="5">注意</font>：所有新的post页面都需要使用new命令生成，因为这一过程需要编辑config文件，所以不要手动创建md文件。即便能够显示在网站中，也会缺少gitalk插件的支持导致评论区不可用。
