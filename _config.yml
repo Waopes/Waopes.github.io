@@ -104,5 +104,5 @@ theme: pure
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@github.com:SeldonSuun/SeldonSuun.github.io.git
+  repo: git@github.com:Waopes/Waopes.github.io.git
   branch: NEW
