@@ -102,7 +102,7 @@ share:
 
 # Github
 github: 
-  username: SeldonSuun
+  username: Waopes
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -114,15 +114,15 @@ comment:
   livere:
     uid: # enter youyan uid 
   gitment:
-    githubID: SeldonSuun
-    repo: SeldonSuun.github.io
+    githubID: Waopes
+    repo: Waopes.github.io
     ClientID: 58257aeb2c3a6dde38d9
     ClientSecret: 9189caf0a6584f783122c75d66748b5a0917a5cb
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
-    owner: SeldonSuun #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin: SeldonSuun #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo: SeldonSuun.github.io #必须. GitHub repository.
+    owner: Waopes #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin: Waopes #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo: Waopes.github.io #必须. GitHub repository.
     ClientID: a84fb2ff7b474ebcd359 #必须. GitHub Application Client ID.
     ClientSecret: 8377380783bffc13cf73b42f58f3d20d0511d1b2 #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
@@ -185,15 +185,15 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: SeldonSuun
+  author: Waopes
   author_title: 咸鱼
   author_description: 个人简介。
   location: China
-  follow: https://github.com/SeldonSuun
+  follow: https://github.com/Waopes
   # Social Links
   social:
     links:
-      github: https://github.com/SeldonSuun
+      github: https://github.com/Waopes
       # weibo: http://weibo.com/cofess
       # twitter: https://twitter.com/iwebued
       # facebook: /
@@ -212,7 +212,7 @@ profile:
     # 平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/SeldonSuun
+    Github: https://github.com/Waopes
     Blog: https://pages.myshore.top
     # 微博: http://weibo.com/cofess
     # 花瓣: http://huaban.com/cofess
