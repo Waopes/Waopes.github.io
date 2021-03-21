@@ -1,6 +1,6 @@
 ---
 title: 新闻收集
-date: 2021-02-08
+date: 2021-03-21
 tags: 收集
 ---
 长期更新。
@@ -62,3 +62,4 @@ tags: 收集
 + 2月7日，抖音诉腾讯垄断正式立案，为互联网平台反垄断第一案([IT之家](https://www.ithome.com/0/534/440.htm))。同日，[国务院反垄断委员会发布《关于平台经济领域的反垄断指南》](http://gkml.samr.gov.cn/nsjg/fldj/202102/t20210207_325967.html#:~:text=%E5%9B%BD%E5%8A%A1%E9%99%A2%E5%8F%8D%E5%9E%84%E6%96%AD,%E5%8F%8D%E5%9E%84%E6%96%AD%E6%8C%87%E5%8D%97)，回应二选一、大数据杀熟等问题([澎湃新闻](https://www.thepaper.cn/newsDetail_forward_11258904#:~:text=%E5%B9%B3%E5%8F%B0%E7%BB%8F%E6%B5%8E%E9%A2%86%E5%9F%9F,%E7%86%9F%E7%AD%89%E9%97%AE%E9%A2%98))。
 + 2月7日，Bilibili下架《无职转生》([Bilibili](https://t.bilibili.com/489059460624209518?tab=2))。
 ![alt](/images/II.bilibili.png)
++ 在当地时间3月18日举行的中美高层对话中，双方在开场白中即猛烈抨击了对方的政策。但一位美国高级官员告诉记者，媒体一离开房间，双方就“立即开始谈正事”，并举行了实质性会谈。([路透社](https://cn.reuters.com/article/us-official-dip-talk-0319-idCNKBS2BB021), [新华社](http://www.xinhuanet.com/world/2021-03/20/c_1127233467.htm))
