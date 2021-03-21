@@ -37,3 +37,43 @@ Host [url]
 ```
 
 其中：[url]部分填写你库所在的网址，如果是gitee就填[gitee.com](https://gitee.com)，User表示是哪个命令使用这个配置，在这里就是git命令配置成功后，你就可以对在不同网站托管的库使用不同的ssh密钥了。
+
+## 3. 同步个人仓库和远程仓库
+
+确认并设定上游仓库：
+
+``` bash
+git remote -v
+git remote add upstream [upstream url]
+git remote -v
+```
+
+在本地仓库文件位置打开命令行，获取上游仓库的分支和相应的提交，分支master的提交会保存到本地分支：
+
+``` bash
+git fetch upstream 
+```
+
+切换到fork仓库的本地master分支：
+
+``` bash
+git checkout master
+```
+
+在合并本地仓库之前先确定自己的远程仓库和本地仓库之间是否同步：
+
+``` bash
+git pull origin master
+```
+
+合并上游仓库和本地仓库：
+
+``` bash
+git merge upstream/master
+```
+
+同步自己本地仓库和远程仓库：
+
+``` bash
+git pull origin master
+```
