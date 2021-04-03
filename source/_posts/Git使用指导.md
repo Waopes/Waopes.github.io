@@ -75,5 +75,5 @@ git merge upstream/master
 同步自己本地仓库和远程仓库：
 
 ``` bash
-git pull origin master
+git push origin master
 ```
