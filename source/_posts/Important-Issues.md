@@ -63,7 +63,8 @@ tags: 收集
 + 2月7日，Bilibili下架《无职转生》([Bilibili](https://t.bilibili.com/489059460624209518?tab=2))。
 ![alt](/images/II.bilibili.png)
 + 在当地时间3月18日举行的中美高层对话中，双方在开场白中即猛烈抨击了对方的政策。但一位美国高级官员告诉记者，媒体一离开房间，双方就“立即开始谈正事”，并举行了实质性会谈。([路透社](https://cn.reuters.com/article/us-official-dip-talk-0319-idCNKBS2BB021), [新华社](http://www.xinhuanet.com/world/2021-03/20/c_1127233467.htm))
-+ 三月，中国共青团猛烈抨击H&M禁用新疆棉的声明（[微博](https://weibo.com/3937348351/K7E7iAC8x?from=page_1001063937348351_profile&wvr=6&mod=weibotime&type=comment#_rnd1619831318387)），网民随即在网络上发起抵制活动，包括一些“艺术创作”![alt](/images/II.HM.jpg)；该事件影响在随后蔓延至其他企业，例如耐克（[联合早报](https://www.zaobao.com/realtime/china/story20210325-1134025#:~:text=%E8%80%90%E5%85%8B%E5%8E%BB%E5%B9%B4,%E6%B0%91%E5%91%BC%E5%90%81%E6%8A%B5%E5%88%B6)）。4月中下旬，该事件的影响逐渐减少，尽管各大电商平台下架了一些企业的部分产品，但似乎并没有更大的制裁动作。值得注意的是，这一事件西方炒作新疆话题的一部分，因此中国做出了强烈的反制措施。
++ 三月，中国共青团猛烈抨击H&M禁用新疆棉的声明（[微博](https://weibo.com/3937348351/K7E7iAC8x?from=page_1001063937348351_profile&wvr=6&mod=weibotime&type=comment#_rnd1619831318387)），网民随即在网络上发起抵制活动，包括一些“艺术创作”；该事件影响在随后蔓延至其他企业，例如耐克（[联合早报](https://www.zaobao.com/realtime/china/story20210325-1134025#:~:text=%E8%80%90%E5%85%8B%E5%8E%BB%E5%B9%B4,%E6%B0%91%E5%91%BC%E5%90%81%E6%8A%B5%E5%88%B6)）。4月中下旬，该事件的影响逐渐减少，尽管各大电商平台下架了一些企业的部分产品，但似乎并没有更大的制裁动作。值得注意的是，这一事件西方炒作新疆话题的一部分，因此中国做出了强烈的反制措施。
+![alt](/images/II.HM.jpg)
 + 台湾巨型货轮于3月23日搁浅于苏伊士运河，造成运河双向堵塞（[台湾"中央社"](https://www.cna.com.tw/news/firstnews/202103245005.aspx)）。29日，货轮成功浮起，并被拖向航道中央的大苦湖接受检查（[新华社](http://www.xinhuanet.com/2021-03/29/c_1127270242.htm)）
 + 3月27日，美国官员称将会邀请俄罗斯总统普京和中国国家主席习近平参加4月22日至23日举办世界主要经济体的气候问题峰会（[美联社](https://apnews.com/article/joe-biden-donald-trump-climate-climate-change-xi-jinping-1135c0a543afdbb500f0a10498eb5406)）。
 正在中东地区访问的中国国务委员兼外长王毅，3月27日在伊朗首都德黑兰同伊朗外长扎里夫举行会谈，并在会谈后签署了《中伊全面合作计划》（[搜狐](https://www.sohu.com/a/457791725_119178)）
