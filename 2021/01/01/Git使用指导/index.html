@@ -26,7 +26,7 @@
 <meta property="og:description" content="记录一些使用遇到的坑和填坑方法，先行推荐一个网站：OhShitGit。 1. 同步的时候总需要验证？多半是装的你使用了https进行克隆和同步，可以在文件夹中git bash后用以下命令查看： 1git remote -v 确定之后就可以用以下代码使用ssh方式替换https进行同步。 1git remote set-url origin [url] 具体方法参考网上的教程 2. 有两个SSH要选">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-01-01T08:54:48.000Z">
-<meta property="article:modified_time" content="2021-01-01T09:07:38.802Z">
+<meta property="article:modified_time" content="2021-04-03T02:24:04.559Z">
 <meta property="article:author" content="Waopes">
 <meta property="article:tag" content="教程">
 <meta name="twitter:card" content="summary">
@@ -236,10 +236,10 @@
                 
               </p>
               <p class="item-title">
-                <a href="/2021/02/08/Important-Issues/" class="title">新闻收集</a>
+                <a href="/2021/11/17/Important-Issues/" class="title">新闻收集</a>
               </p>
               <p class="item-date">
-                <time datetime="2021-02-07T16:00:00.000Z" itemprop="datePublished">2021-02-08</time>
+                <time datetime="2021-11-16T16:00:00.000Z" itemprop="datePublished">2021-11-17</time>
               </p>
             </div>
           </li>
@@ -361,7 +361,18 @@
 <h2 id="2-有两个SSH要选着用？"><a href="#2-有两个SSH要选着用？" class="headerlink" title="2. 有两个SSH要选着用？"></a>2. 有两个SSH要选着用？</h2><p>不要慌，在/.ssh文件夹中创建一个新的文件命名为“config”，在其中输入以下内容：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host [url]</span><br><span class="line">    User git</span><br><span class="line">    IdentityFile [ssh文件位置]</span><br><span class="line">    IdentitiesOnly yes</span><br><span class="line">Host [url]</span><br><span class="line">    User git</span><br><span class="line">    IdentityFile [ssh文件位置]</span><br><span class="line">    IdentitiesOnly yes</span><br></pre></td></tr></table></figure>
 <p>其中：[url]部分填写你库所在的网址，如果是gitee就填<a target="_blank" rel="noopener" href="https://gitee.com/">gitee.com</a>，User表示是哪个命令使用这个配置，在这里就是git命令配置成功后，你就可以对在不同网站托管的库使用不同的ssh密钥了。</p>
-
+<h2 id="3-同步个人仓库和远程仓库"><a href="#3-同步个人仓库和远程仓库" class="headerlink" title="3. 同步个人仓库和远程仓库"></a>3. 同步个人仓库和远程仓库</h2><p>确认并设定上游仓库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br><span class="line">git remote add upstream [upstream url]</span><br><span class="line">git remote -v</span><br></pre></td></tr></table></figure>
+<p>在本地仓库文件位置打开命令行，获取上游仓库的分支和相应的提交，分支master的提交会保存到本地分支：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch upstream </span><br></pre></td></tr></table></figure>
+<p>切换到fork仓库的本地master分支：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout master</span><br></pre></td></tr></table></figure>
+<p>在合并本地仓库之前先确定自己的远程仓库和本地仓库之间是否同步：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master</span><br></pre></td></tr></table></figure>
+<p>合并上游仓库和本地仓库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge upstream/master</span><br></pre></td></tr></table></figure>
+<p>同步自己本地仓库和远程仓库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -417,7 +428,7 @@
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2021/02/08/Important-Issues/" title="新闻收集"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+      <a href="/2021/11/17/Important-Issues/" title="新闻收集"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
     
     
@@ -455,7 +466,7 @@
 
     <div class="copyright">
     	
-        &copy; 2021 Waopes
+        &copy; 2022 Waopes
         
         <div class="publishby">
         	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
